@@ -1,0 +1,244 @@
+ol{
+    list-style: none;
+}
+
+.slideshow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: none;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+div#Cuadrados-iconos {
+    height: 10%;
+    margin-top: 90%;
+    position: absolute;
+    /* z-index: 1000000; */
+    width: 100%;
+}
+
+     .contenedor2{
+        width: 100%;
+        height:400px; 
+        background:none; 
+        margin: auto;
+          background: none;
+}
+     
+        .contenedor2 img{
+            width: 70%;
+            height: 430px;
+            display: block;
+            margin: auto;
+        }
+            .caption{
+                width: 100%;
+                text-align: center;
+                z-index: 1;
+                top: 0;
+                position: absolute;
+                padding-top: 50px;
+            }
+    .pagination{ 
+        display: flex;
+        justify-content: center;
+        top:0;
+    
+    }
+        .pagination li { 
+                font-size: 20px;
+                margin-top: 30px;
+                margin-left: 10px;
+                color:#ffffff;
+                cursor: pointer;
+            }
+                .left, .right{
+                    display: flex;
+                    align-items: center;
+                    height: 93%;
+                    font-size: 50px;
+                    position: absolute;
+                    top: 0;
+                    z-index: 2;
+                }
+                .left{
+                    left: 50px;
+                    color: #ffffff;
+                }
+                .right{
+                    right: 50px;
+                     color: #fdfdfd;
+                }
+                .left:hover{
+                    color: #57ad0c;
+                }
+                .right:hover{
+                    color: #57ad0c;
+                }
+
+
+
+@media (min-width:100px){
+    
+    .slideshow{
+        width: 100%;
+        height: 200px;
+         margin-bottom: 0px;
+    }
+     .contenedor2{
+         width: 100%;
+         height: 190px;
+     }
+     .contenedor2 img{
+         width: 100%;
+         height: 190px;
+ 
+     }
+     .left, .right{
+         font-size: 30px;
+         height: 93%;
+     }
+     .left{
+         left:10px;
+         top: -8px;
+     }
+     .right{
+         right: 10px;
+         top: -8px;
+     }
+     .pagination li{ 
+         display: none;
+     }   
+}
+
+
+
+
+
+
+ @media  (min-width:400px){
+     
+    .slideshow{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+     .contenedor2{
+         width: 100%;
+         height: 400px;
+     }
+     .contenedor2 img{
+         width: 100%;
+         height: 100%;
+     }
+     .left, .right{
+         font-size: 20px;
+         height: 93%;
+         font-size: 50px;
+     }
+     .left{
+         left:10px;
+     }
+     .right{
+         right: 10px;
+     }
+     .pagination li{ 
+         font-size:10px;
+     }   
+}
+@media  (min-width:768px){
+    .slideshow{
+        height: 500px;
+        width: 80%;
+        margin-top: 500px;
+        margin-bottom: 40px;
+        margin: auto;
+    }
+     .contenedor2{
+         width: 100%;
+           height: 500px;
+     }
+     .contenedor2 img{
+         width: 100%;
+           height: 100%;
+     }
+     .left, .right{
+         font-size: 20px;
+         height: 93%;
+         font-size: 60px;
+         top: -45px;
+     }
+     .left{
+         left:-70px;
+     }
+     .right{
+         right: -70px;
+     }
+     .pagination li{ 
+         font-size:10px;
+         display: block;
+         font-size: 25px;
+     }   
+}
+
+@media  (min-width:880px){
+    .slideshow{
+        height: 100%;
+        width: 100%;
+        margin-top:0px;
+        margin-bottom: 40px;
+        margin: auto;
+           
+    }
+
+    .slider {
+        width: 100%;
+        /* display: flex; */
+        position: absolute;
+        height: 100%;
+    }
+     .contenedor2{
+        width: 100%;
+        /* position: absolute; */
+        height: 100%;
+        display: flex;
+        background: none;
+        position: absolute;
+     }
+     .contenedor2 img{
+         width: 100%;
+           height: 100%;
+         -webkit-box-shadow: 15px 20px 179px -31px rgba(122,122,122,1);
+-moz-box-shadow: 15px 20px 179px -31px rgba(122,122,122,1);
+box-shadow: 15px 20px 179px -31px rgba(122,122,122,1);
+     }
+     .left, .right{
+        width: 10%;
+        font-size: 20px;
+        height: 100%;
+        position: absolute;
+        font-size: 60px;
+        /* top: -45px; */
+     }
+     .left{
+         left:0%;
+     }
+     .right{
+         right: 0%;
+     }
+     .pagination li { 
+                font-size: 20px;
+                margin-top: 0px;
+                margin-left: 10px;
+            }
+}
+
+
+

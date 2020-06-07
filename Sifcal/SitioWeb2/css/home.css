@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Signika');
+
+
+.overflow-x{
+    overflow-x: hidden;
+}
+
+.main{
+    width: calc(100% - (8.375rem - .0625rem));
+}
+
+.min-vh-100{
+    min-height: 100vh!important;
+}
+
+section{
+position: relative;
+padding-top: 7.5rem;
+padding-bottom: 7.5rem;
+}
+
+.py-0{
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+}
+
+.container-fluido{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.px-0{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.colum-lg-6{
+    position: relative;
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.py-9{
+    padding-bottom: 1rem!important;
+    padding-top: 1rem!important;
+}
+
+.sticky-top{
+    z-index: 1020;
+    position: fixed;
+    position: sticky;
+    top: 0;
+}
+
+.vh-lg-100{
+    height: 100vh;
+}
+
+
+.bg-holder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform,opacity,filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+}
+
+.bg-holder img{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform,opacity,filter;
+    filter: blur(0px);
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.bg-white{
+    background-color: #fff!important;
+}
+
+.py-6{
+    padding-bottom: 4rem!important;
+    padding-top: 4rem!important;
+}
+
+.h-100{
+    height: 100%!important;
+}
+
+.alig-items-cen{
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.jus-con-cen{
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.colum-lg-10{
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;    
+}
+
+h1{
+    margin-bottom: .5rem;
+    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 900;
+    line-height: 1.2;
+    color: #000;
+    margin-top: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.d-block{
+    display: block!important;
+} 
+
+.overflow-hidden{
+    overflow: hidden!important;
+}
+
+.titulo1{
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.font-weight-black {
+    font-weight: 900!important;
+}
+
+.display-4 {
+    font-weight: 900;
+    line-height: 1;
+}
+
+.text-700 {
+    color: #666!important;
+}
+
+.fs-0 {
+    font-size: 1rem;
+}
+
+.ls {
+    letter-spacing: .04em;
+}
+
+.font-weight-normal {
+    font-weight: 400!important;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.mt-4{
+    margin-top: 1.8rem!important;
+}
+
+h6{
+    margin-bottom: .5rem;
+
+    font-weight: 900;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: #045bc1;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 700;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #3bc528c4;
+    border: 5px solid transparent;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+.mt-sm-7{
+    margin-top: 5rem!important;
+}
+
+.btn-sm {
+    padding: .4rem 1.2rem;
+    font-size: .75rem;
+    margin: 0 1em;
+    line-height: 1.5;
+    border-radius: .1875rem;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #f1d42f;
+    border-color: #ffbf00;
+
+}
+
+div.contenedor{
+    background: white;
+    margin: 15px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .bloquecal1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .bloquecal2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  div.imagen{
+      width:50%;
+    height:100%;
+    border-radius: 10%;
+      background-color: #43a230;
+      overflow: hidden;
+    transition: 0.5s;
+    position: absolute;
+    margin-left: 20%;
+    
+  }
+  
+  img.imagen{
+    display: block;
+      margin: 55px auto;
+      width:145px;
+      height:145px;
+    transition: margin-top .4s;
+    
+  }
+  
+  div.info{
+    width:0%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+
+    text-align: center;
+    background-color: #6faa64;
+      overflow: hidden;
+    transition: 0.8s;
+    margin-left: 50%;
+  }
+  
+  div.bloquecal2:hover div.imagen{
+      margin-left: 0%;
+  }
+  
+  div.bloquecal2:hover div.info{
+    width: 75%;
+    margin-left: 25%;
+    padding: 40px;
+    padding-left: 30%;
+  }
+  
+  
+  .bloquehis{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .bloquehis2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .bloquehis2 > .imagen {
+    right: 0;
+    margin-right: 20%;
+  }
+  
+  
+  div.imagen1{
+      width:50%;
+    height:100%;
+    border-radius: 10%;
+      background-color: #43a230;
+      overflow: hidden;
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+    margin-right: 20%;
+    z-index: 1000;
+    
+  }
+  
+  /*HERRAMIENTAS CALCULAR Y HISTORIAL*/
+  div.info1{
+    width:0%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6faa64;
+      overflow: hidden;
+    transition: 0.8s;
+    right: 0;
+    margin-right: 45%;
+    position: absolute;
+  }
+  
+  div.bloquehis:hover div.imagen1{
+      margin-right: 0%;
+  }
+  
+  div.bloquehis:hover div.info1{
+      width: 75%;
+    margin-right: 25%;
+    padding: 40px;
+    padding-right: 30%;
+  }
+  
+  
